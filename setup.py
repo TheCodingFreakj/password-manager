@@ -24,7 +24,7 @@ CLASSIFIERS = [
 ]
 
 # calling the setup function
-setup(name='password manager45',
+setup(name='password manager445',
       version='1.0.0',
       description='A simple python wrapper for creating passwords..',
       long_description="A simple python wrapper for creating passwords",
@@ -34,7 +34,7 @@ setup(name='password manager45',
       author_email='pallavidapriya75@gmail.com',
       license='MIT',
       # packages=[ 'password-manager' ],
-      packages=find_packages('password manager45'),
+      packages=find_packages('password manager445'),
       classifiers=CLASSIFIERS,
       install_requires=REQUIREMENTS,
       keywords='password manager'
