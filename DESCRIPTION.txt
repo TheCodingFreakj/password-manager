@@ -1,0 +1,4 @@
+Password Manager
+======
+
+A simple python wrapper for creating passwords..

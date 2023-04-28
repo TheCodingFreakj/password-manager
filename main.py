@@ -73,9 +73,9 @@ win = Tk()
 win.title("Password Manager")
 win.config(padx=20, pady=34)
 win.resizable(False, False)
-
+# print(os.path.join(os.path.dirname(__file__), 'Images\company-logo.png'))
 # Create an object of tkinter ImageTk
-img = ImageTk.PhotoImage(Image.open("./Images/company-logo.png").resize((400, 300)))
+img = ImageTk.PhotoImage(Image.open(os.path.join(os.path.dirname(__file__), 'Images\company-logo.png')).resize((400, 300)))
 # Constructing the first image, frame1
 frame1 = Label(win, image=img, padx=15, pady=15)
 frame1.grid(row=0, column=0, sticky="we")
@@ -98,7 +98,7 @@ frame3.grid(row=2, column=0, sticky='w')
 
 # Constructing the fourth frame, frame4
 frame4 = Label(win, text="Password", font='Aerial 15', padx=15, pady=15)
-0
+
 # Displaying the frame2 in row 0 and column 1
 frame4.grid(row=3, column=0, sticky='w')
 
