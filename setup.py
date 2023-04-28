@@ -24,17 +24,17 @@ CLASSIFIERS = [
 ]
 
 # calling the setup function
-setup(name='password manager445',
+setup(name='password manager435',
       version='1.0.0',
       description='A simple python wrapper for creating passwords..',
       long_description="A simple python wrapper for creating passwords",
       url='https://github.com/TheCodingFreakj/password-manager',
-      download_url='https://github.com/TheCodingFreakj/password-manager/archive/refs/tags/password-manager-1.0.0.tar.gz',
+      download_url='https://github.com/TheCodingFreakj/password-manager/archive/refs/tags/password-manager1.0.0.tar.gz',
       author='Pallavi Priyadarshini',
       author_email='pallavidapriya75@gmail.com',
       license='MIT',
       # packages=[ 'password-manager' ],
-      packages=find_packages('password manager445'),
+      packages=find_packages('password manager435'),
       classifiers=CLASSIFIERS,
       install_requires=REQUIREMENTS,
       keywords='password manager'
