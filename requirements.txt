@@ -1,2 +1,8 @@
 Pillow~=9.4.0
 setuptools~=60.2.0
+os
+sys
+tkinter
+random
+string
+json
