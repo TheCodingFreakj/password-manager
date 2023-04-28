@@ -1,11 +1,11 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # reading long description from file
 with open('DESCRIPTION.txt') as file:
     long_description = file.read()
 
 # specify requirements of your package here
-REQUIREMENTS = [ 'requests' ]
+REQUIREMENTS = [ 'os' , 'sys', 'ImageTk', 'Image','messagebox','random','string','json']
 
 # some more details
 CLASSIFIERS = [
@@ -29,10 +29,12 @@ setup(name='password-manager',
       description='A simple python wrapper for creating passwords..',
       long_description=long_description,
       url='https://github.com/TheCodingFreakj/password-manager',
+      download_url = 'https://github.com/TheCodingFreakj/password-manager/archive/refs/tags/1.0.0.zip',
       author='Pallavi Priyadarshini',
       author_email='pallavidapriya75@gmail.com',
       license='MIT',
-      packages=[ 'password-manager' ],
+      # packages=[ 'password-manager' ],
+      packages=find_packages('password-manager'),
       classifiers=CLASSIFIERS,
       install_requires=REQUIREMENTS,
       keywords='password manager'
