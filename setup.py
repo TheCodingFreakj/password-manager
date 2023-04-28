@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 #     long_description = file.read()
 
 # specify requirements of your package here
-REQUIREMENTS = [ 'os', 'sys', 'ImageTk', 'Image', 'messagebox', 'random', 'string', 'json' ]
+REQUIREMENTS = [ 'Image', 'messagebox' ]
 
 # some more details
 CLASSIFIERS = [
@@ -24,7 +24,7 @@ CLASSIFIERS = [
 ]
 
 # calling the setup function
-setup(name='passLass498',
+setup(name='passLass408',
       version='1.0.0',
       description='A simple python wrapper for creating passwords..',
       long_description="A simple python wrapper for creating passwords",
@@ -34,7 +34,7 @@ setup(name='passLass498',
       author_email='pallavidapriya75@gmail.com',
       license='MIT',
       # packages=[ 'password-manager' ],
-      packages=find_packages('passLass498'),
+      packages=find_packages('passLass408'),
       classifiers=CLASSIFIERS,
       install_requires=REQUIREMENTS,
       keywords='password manager'
